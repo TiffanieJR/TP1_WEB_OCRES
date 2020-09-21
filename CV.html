@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang=fr>
+    <head>
+        <meta charset="utf-8">
+        <title>CV TP1</title>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+        <style type="text/css">
+
+        .sansserif {
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #main
+        {
+            text-align: left;
+            padding: 0%;
+            display: flex;
+            font-family: sans-serif;
+            font-size: smaller;
+        }
+
+        .interligne
+        {
+            line-height: 12pt;
+            font-family: "Lucida Console", Courier, monospace;
+        }
+
+        .titre
+        {
+            color: purple;
+        }
+
+        .annonce
+        {
+            color: orange;
+        }
+
+        .menu
+        {
+            list-style: none;
+            margin: 0;
+            position: fixed; 
+        }
+
+        .menu ul
+        {
+            list-style: none;
+            margin: 0;
+            position: fixed; 
+        }
+
+        .menu ul li
+        {
+            padding: 15px;
+            width: 300px;
+            background-color: #F2D68A;
+            border-top: 1px solid purple; 
+        }
+
+        .video
+        {
+            margin-left: 50px;
+        }
+
+        .legende
+        {
+            margin-left: 50px;
+        }
+
+        #colonne_gauche
+        {
+            line-height: 100%;
+            background-color: #F2D68A;
+            height: 100%;
+            width: 15%;
+            float: left;
+            padding: 5px;
+            margin-left: 50px;
+            
+        }
+
+        #colonne_milieu
+        {
+            line-height: 100%;
+            background-color: white;
+            height: 100%;
+            width: 50%;
+            float: left;
+            padding: 5px;
+            margin-left: 30px;
+        }
+
+        #colonne_droite
+        {
+            line-height: 100%;
+            background-color: white;
+            height: 100%;
+            width: 15%;
+            float: left;
+            padding: 5px;
+            margin-left: 30px;
+        }
+
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <div id="main">          
+
+            <div id="colonne_gauche">
+                <img src="TiffJR.png" alt="photo_CV" height="150" width="215" align="center">
+
+                <br/><br/>
+                <center>
+                <h2>Contact info</h2>
+
+                <hr color="purple" size="2">
+
+                <i class="material-icons">&#xe551;</i>
+                </br>
+                <a href="tel:+33699999959" >+33 6 99 99 99 59</a>
+                </br></br>
+                    
+                <i class="material-icons">&#xe0be;</i>
+                </br>
+                <a href="mailto:tiffanie.jego-ragas@edu.ece.fr">tiffanie.jego-ragas@edu.ece.fr</a></li>
+                </br></br>
+
+
+                <i style='font-size:24px' class='fab'>&#xf08c;</i>
+                <br/>
+                <a href="https://www.linkedin.com/">Tiffanie Jégo-Ragas</a>
+                </br></br>
+
+                <i style='font-size:24px' class='fas'>&#xf276;</i>
+                </br>
+                37, Quai de Grenelle, Paris 15e
+                </br></br></br>
+
+
+                <h2>Compétences
+                <br/><br/>linguistiques</h2>
+                <hr color="purple" size="2">
+                <br/>
+                <i style="font-size:24px" class="fa">&#xf0ac;</i></center>                
+                
+                <ul>
+                    <li>Anglais C1 (confirmé)</li>
+                    <li>Italien B2 (avancé)</li>
+                    <li>Espagnol A2 (débutant)</li>
+                </ul>
+
+                    </br>
+
+                <center><h2>Compétences
+                <br/><br/>techniques</h2>
+                <hr color="purple" size="2">
+                <br/>
+                <i class="material-icons">&#xe30a;</i></center>
+                <ul>
+                    <li>Suite Office (Word, Excel, PowerPoint, ...)</li>
+                    <li>Suite Google (Doc, Sheets,...)</li>
+                </ul>
+                <br/><br/>
+
+                <center>
+                    <h2>Contactez-moi !</h2>
+    
+                    <hr color="purple" size="2">
+                </center>
+                
+                <form method="post" action="traitement.php">
+                    <p>
+                        <i class="material-icons">&#xe7fd;</i>
+                        <label for="nom">Votre nom :</label>
+                        <input type="text" name="nom" id="nom" placeholder="Emmanuel Macron" size="25" maxlength="10" />
+                    </p>
+                </form>
+
+                <form method="post" action="traitement.php">
+                    <p>
+                        <i class="material-icons">&#xe0e1;</i>
+                        <label for="email">Votre email :</label>
+                        <input type="email" name="email" id="email" placeholder="emmanuel.macron@gmail.com" size="25" maxlength="10" />
+                    </p>
+                </form>
+
+                <form method="post" action="traitement.php">
+                    <p>
+                        <i class="material-icons">&#xe254;</i>
+                        <label for="message">Contactez-moi</label><br/>
+                        <textarea name="message" id="message"></textarea>
+                    </p>
+                 </form>
+
+                 <input type="submit" value="Envoyer"/>
+
+                 <img src="click.gif" alt="clickhere" border="0" height="100" width="200"></a>
+                 <br/><br/><br/><br/><br/>
+                 
+            </div>
+
+
+            <div id="colonne_milieu">
+
+                <h1 style="color: purple;">TIFFANIE JEGO-RAGAS</h1>
+                <h2 class="annonce">ETUDIANTE INGENIEURE</h2>
+
+                <br/>
+                    <h2 class="titre" id="FORMATION">FORMATION</h2>
+                    <hr>
+                    <p class="interligne"><strong><FONT size="3pt">FORMATION D'INGENIEUR, 4EME ANNEE</FONT></strong>
+                    <br/><FONT color="7E7978">ECE Paris | 2017 - actuellement</FONT>
+                    <ul>
+                        <li>Majeure Objets Connectés, Réseaux et Services</li>
+                        <li>Mineure Management d'une organisation et management par projet</li>
+                    </ul>
+                    </p>
+
+                    <p class="interligne"><strong><FONT size="3pt">ELECTRONIC ENGINEERING, ECHANGE UNIVERSITAIRE</FONT></strong>
+                    <br/><FONT color="grey">Bangor University, Royaume-Uni | 2019</FONT>
+                    </p>
+
+                    <p class="interligne"><strong><FONT size="3pt">BACCALAUREAT SCIENTIFIQUE</FONT></strong>
+                    <br/><FONT color="grey">Lycée Michelet, Vanves | 2017</FONT>
+                    <li>Spécialité Physique-Chimie, Mention Bien</li>
+                    </p>
+                    <br/>
+
+                    <h2 class="titre" id="EXPERIENCES">EXPERIENCES PROFESSIONNELLES</h2>
+                    <hr>
+                    <p class="interligne"><strong><FONT size="3pt">COURS PARTICULIERS</FONT></strong>
+                    <br/><FONT color="7E7978">TUTEUR A L'HEURE | MAI 2019 - actuellement</FONT>
+                    </p>
+
+                    <p class="interligne"><strong><FONT size="3pt">CONSEILLERE CLIENTELE ET VENDEUSE</FONT></strong>
+                    <br/><FONT color="grey">RAYON D'OR PARIS | DECEMBRE 2019 - JANVIER 2020</FONT>
+                    <ul>
+                        <li>Conseil et vente</li>
+                        <li>Tenue de caisse</li>
+                        <li>Réassort du magasin et facing</li>
+                    </ul>
+                    </p>
+
+                    <p class="interligne"><strong><FONT size="3pt">ASSISTANT PROFESSEUR DE FRANCAIS, ROYAUME-UNI</FONT></strong>
+                    <br/><FONT color="grey">BANGOR UNIVERSITY | SEPTEMBRE 2019 - DECEMBRE 2019</FONT>
+                    </p>
+
+                    <p class="interligne"><strong><FONT size="3pt">CONSEILLERE CLIENTELE ET VENDEUSE</FONT></strong>
+                    <br/><FONT color="grey">DARTY BEAUGRENELLE | DECEMBRE 2018 - JANVIER 2019</FONT>
+                    <ul>
+                        <li>Conseil et vente</li>
+                        <li>Réassort du magasin et facing</li>
+                    </ul>
+                    </p>
+                
+                    <br/>
+                    <h2 class="titre" id="BENEVOLAT">BENEVOLAT ET ASSOCIATION</h2>
+                    <hr>
+                    <p class="interligne"><strong><FONT size="3pt">CLUB ALMA | TRESORIERE & RESPONSABLE SPONSOR</FONT></strong>
+                    <br/><FONT color="7E7978">MAI 2020 - ACTUELLEMENT</FONT>
+                    <ul>
+                        <li>Organisation de conférences pour plus de 100 personnes, dont une conférence TEDx</li>
+                        <li>Sorties culturelles et ateliers d'éloquence et de négociation</li>
+                    </ul>
+                    </p>
+
+                    <p class="interligne"><strong><FONT size="3pt">ALASTA - ASSOCIATION DE QUARTIER | BENEVOLE</FONT></strong>
+                    <br/><FONT color="7E7978">AOÛT 2015 - ACTUELLEMENT</FONT>
+                    <ul>
+                        <li>Gestion d'évènements et de la communication</li>
+                    </ul>
+                    </p>
+
+                    <br/>
+                    <h2 class="titre" id="PROJETS">PROJETS</h2>
+                    <hr>
+                    <p class="interligne"><strong><FONT size="3pt">MY PHARMA : APPLICATION DE RAPPEL MEDICAMENTS, 2018 - 2019</FONT></strong>
+                    <br/><FONT color="7E7978">1er Prix au Concours des Grain'Innov Awards 2019
+                    <br/>Prix du Public au Concours des Innov'Awards 2019
+                    </FONT>
+                    <ul>
+                        <li>Projet réalisé en équipe de 6 qui a pour but de notifier le patient au moment de sa prise et offre un partage aux proches du patient</li>
+                        <li>Développement d'une application sur Play Store</li>
+                        <li>Création d'un site Internet afin de promouvoir l'application</li>
+                    </ul>
+                    </p>
+
+                    <p class="interligne"><strong><FONT size="3pt">LIFE WATCHER : BRACELET CONNECTE & APPLICATION, 2017 - 2018</FONT></strong>
+                    <br/><FONT color="7E7978">2ème Prix au Concours des Grain'Innov Awards 2018</FONT>
+                    <ul>
+                        <li>Chef de projet d'une équipe de 6</li>
+                        <li>Conception d'un bracelet électronique connecté, relié à une application qui gère un calendrier de rappels</li>
+                        <li>Développement de la maquette de l'application</li>
+                    </ul>
+                    </p>                    
+            </div>
+
+            <div id="colonne_droite">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#FORMATION">FORMATION</a></li>
+                        <li><a href="EXPERIENCES">EXPERIENCES PROFESSIONNELLES</a></li>
+                        <li><a href="BENEVOLAT">BENEVOLAT & ASSOCIATION</a></li>
+                        <li><a href="PROJETS">PROJETS</a></li>               
+                    </ul> 
+
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <video class="video" width="320" height="240" controls>
+                    <source src="Tiffanie JR.mp4" type="video/mp4">
+                </video>
+
+                <img src="fond.png" alt="fondVideo" height="40" width="320" class="legende">
+
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+
+</html>
